@@ -10,7 +10,7 @@ To stabilize the complex binarized training process, the model is trained using 
 
 | Model | Weight Precision | Activation Precision | Accuracy | Weight |
 | :--- | :---: | :---: | :---: | :---: |
-| **ResNet18 FP32** | FP32 | FP32 | **94.8%** | 
-| **ResNet18 1-Bit** | 1-Bit | 1-Bit | **91.9%** |
+| **ResNet18 FP32** | FP32 | FP32 | **94.8%** | 42.8 MB |
+| **ResNet18 1-Bit** | 1-Bit | 1-Bit | **91.9%** | 2.2 MB |
 
 *(Note: In accordance with BNN industry standards, the very first convolutional layer and the final classification layer are kept in FP32).*
