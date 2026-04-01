@@ -14,3 +14,7 @@ To stabilize the complex binarized training process, the model is trained using 
 | **ResNet18 1-Bit** | 1-Bit | 1-Bit | **91.9%** | 2.2 MB |
 
 *(Note: In accordance with BNN industry standards, the very first convolutional layer and the final classification layer are kept in FP32).*
+
+## TODO
+- Implement CUDA kernels for 1bit multiplicaition
+- Compare inference speed of patched, base 1Bit model and full precision one.
