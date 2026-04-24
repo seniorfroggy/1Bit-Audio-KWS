@@ -1,0 +1,12 @@
+.torch_extensions/
+data/
+__pycache__/
+*.pt
+*.pth
+*.pkl
+*.pt.tar
+*.pt.tar.gz
+*.pt.tar.bz2
+*.pt.tar.xz
+*.pt.tar.lzma
+*.pt.tar.zst
