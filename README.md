@@ -17,12 +17,12 @@ To stabilize the complex binarized training process, the model is trained using 
 
 ## CPU Inference Benchmark
 
-Device used for evaluation: Mac Air M4, 1 cpu core
+Device used for evaluation: Mac Air M4, 1 cpu core, batch_size=1
 
 ## 📊 Results
 | Model | Latency| Speedup |
 | :--- | :---: | :---: |
-| **ResNet18 FP32** | 14.41 ms/sample | 1.0x |
-| **ResNet18 1-Bit** | 3.30 ms/sample | 4.16x |
+| **ResNet18 FP32** | 17.59 ms/sample | 1.0x |
+| **ResNet18 1-Bit** | 3.43 ms/sample | 5.13x |
 
 
